@@ -14,6 +14,7 @@ class Registration {
 
         // Set the main frame size according to selected resolution
         JFrame frame = new JFrame();
+        frame.setTitle("Регистрация");
         frame.setSize(resolution);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
